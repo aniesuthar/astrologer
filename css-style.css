@@ -6,8 +6,8 @@
 
 :root{
   --primary-color: #890705; /* Red Color */
-  --primary2-color: #990604; /* Red2 Color */
-  --secondary-color: #EF9534; /* Yellow Color */
+  --primary2-color: #ca0401; /* Red2 Color */
+  --secondary-color: #ffa216; /* Yellow Color */
 }
 * {
   margin: 0px;
@@ -46,7 +46,7 @@ ul li {
 /* #025b04 -> #EF9534  Yellow Color  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .top-sec {
-  background-image: linear-gradient(var(--primary-color), var(--primary2-color));
+  background-image: linear-gradient(-15deg, var(--primary-color), var(--primary2-color));
   padding: 0px 0px 10px;
 }
 
@@ -116,7 +116,7 @@ ul li {
   -webkit-box-shadow: inset 0px 0px 100px var(--secondary-color);
   box-shadow: inset 0px 0px 100px var(--secondary-color);
   border: 1px solid transparent;
-  color: #041f18;
+  color: #210401;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
@@ -136,7 +136,7 @@ ul li {
   font-size: 20px;
 }
 strong {
-  color: #11372c;
+  color: #371a11;
 }
 .top-sec .top-col1 span {
   display: block;
@@ -225,7 +225,7 @@ strong {
 
 .logo-sec .logo-side .logo-inr .logo-p1 {
   font-size: 24px;
-  color: #041f18;
+  color: #210401;
   text-transform: capitalize;
   text-align: center;
   font-family: "Quattrocento", serif;
@@ -261,7 +261,7 @@ strong {
 
 .logo-sec .logo-side .logo-inr ul li {
   font-size: 20px;
-  background: #041f18;
+  background: #210401;
   color: #fff;
   text-align: center;
   position: relative;
@@ -270,7 +270,7 @@ strong {
 }
 
 .logo-sec .logo-side .logo-inr ul li:hover .chat-icon {
-  color: #041f18;
+  color: #210401;
 }
 
 .logo-sec .logo-side .logo-inr ul li:hover .chat-icon:before {
@@ -302,7 +302,7 @@ strong {
   left: -50px;
   background: var(--secondary-color);
   z-index: 1;
-  color: #041f18;
+  color: #210401;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
@@ -340,7 +340,7 @@ strong {
 
 .logo-sec .logo-col3 .logo-inr {
   padding: 10px 15px 0px;
-  background: #041f18;
+  background: #210401;
   color: var(--secondary-color);
   font-weight: 500;
   font-size: 18px;
@@ -375,7 +375,7 @@ strong {
 }
 
 .logo-sec .logo-col4 .logo-inr ul li span {
-  color: #041f18;
+  color: #210401;
   font-size: 20px;
   display: block;
 }
@@ -583,7 +583,7 @@ strong {
 
 .serv2-sec .srv-hd p {
   font-size: 50px;
-  color: #041f18;
+  color: #210401;
   text-align: center;
   padding: 13px;
   font-weight: 700;
@@ -637,7 +637,7 @@ strong {
   -webkit-box-shadow: 0px 6px 20px #fffefe3b;
   box-shadow: 0px 6px 20px #fffefe3b;
   overflow: hidden;
-  background: #ffc107;
+  background: var(--secondary-color);
 }
 
 .serv2-sec .srv-mn .srv-box:hover ul .arow-icon {
@@ -655,7 +655,7 @@ strong {
 
 .serv2-sec .srv-mn .srv-nm {
   font-size: 25px;
-  color: #041f18;
+  color: #210401;
   text-transform: capitalize;
   text-align: center;
   font-family: "Quattrocento", serif;
@@ -701,7 +701,7 @@ strong {
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
   color: #fff;
-  border: 1px solid #041f18;
+  border: 1px solid #210401;
   padding: 10px 20px;
   z-index: 1;
 }
@@ -718,7 +718,7 @@ strong {
   margin: 0 auto;
   -webkit-transform: scale(1);
   transform: scale(1);
-  background: #041f18;
+  background: #210401;
   z-index: -1;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -726,7 +726,7 @@ strong {
 
 .serv2-sec .srv-mn ul li a:hover {
   background: transparent;
-  color: #041f18;
+  color: #210401;
   -webkit-box-shadow: 0px 0px 6px #ffffff5c;
   box-shadow: 0px 0px 6px #ffffff5c;
 }
@@ -748,7 +748,7 @@ strong {
 .chose-sec .chose-hd p {
   font-size: 50px;
   text-align: center;
-  color: #041f18;
+  color: #210401;
   font-weight: 600;
   text-transform: capitalize;
   margin: 0px;
@@ -819,7 +819,7 @@ strong {
   bottom: inherit;
   left: 0px;
   margin: 0 auto;
-  background: #ff5722;
+  background: var(--primary-color);
   border-radius: 50%;
   z-index: -1;
   -webkit-transition: 0.7s ease-in-out;
@@ -865,7 +865,7 @@ strong {
   bottom: inherit;
   left: 0px;
   margin: 0 auto;
-  background: #001c19;
+  background: #2b0801;
   z-index: -1;
 }
 
@@ -989,7 +989,7 @@ strong {
 
 .serv3-sec .srv-hd p {
   font-size: 50px;
-  color: #041f18;
+  color: #210401;
   font-weight: 600;
   text-transform: capitalize;
   margin: 0px;
@@ -1101,7 +1101,7 @@ strong {
 
 .serv3-sec .srv-col1 .srv-mn .srv-name {
   font-size: 20px;
-  color: #041f18;
+  color: #210401;
   text-transform: capitalize;
   text-align: center;
   font-family: "Quattrocento", serif;
@@ -1127,9 +1127,9 @@ strong {
 
 .contact-sec {
   padding: 0px 0px;
+  padding-bottom: 36px;
   position: relative;
   z-index: 1;
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1160,7 +1160,7 @@ strong {
   bottom: inherit;
   left: 0px;
   margin: 0 auto;
-  background-color: #211302;
+  background-color: #140700;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1241,7 +1241,7 @@ strong {
   margin: 0px;
   font-size: 30px;
   font-weight: 900;
-  color: #041f18;
+  color: #210401;
   text-transform: capitalize;
   padding-bottom: 30px;
   position: relative;
@@ -1294,7 +1294,7 @@ strong {
   width: 40px;
   height: 40px;
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
-  background: #041f18;
+  background: #210401;
   color: var(--secondary-color);
   font-size: 20px;
 }
@@ -1391,12 +1391,12 @@ strong {
   padding: 10px 20px;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-  background: #041f18;
+  background: #210401;
   border: 0px;
   font-size: 18px;
   font-weight: 400;
   color: #fff;
-  border: 1px solid #041f18;
+  border: 1px solid #210401;
   z-index: 1;
 }
 
@@ -1413,11 +1413,11 @@ strong {
 
 .contact-sec .contact-col2 .style-btn button:hover {
   background: transparent;
-  color: #041f18;
+  color: #210401;
 }
 
 .ftr-sec {
-  background: #211302;
+  background: #140700;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
